@@ -17,7 +17,7 @@ var Style = StyleSheet.create({
     },
     inputButton: {
         flex: 1,
-        alignItems: 'flex-start',
+        alignItems: 'center',
         justifyContent: 'center',
         borderWidth: 0.5,
         borderColor: '#91AA9D',
