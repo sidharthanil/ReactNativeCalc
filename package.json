@@ -6,7 +6,7 @@
 		"build": "(cd android/ && ./gradlew assembleDebug)",
     		"start": "node node_modules/react-native/local-cli/cli.js start",
     		"bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --sourcemap-output android/app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/",
-				"bundle-android-dev": "react-native bundle --platform android --dev true --entry-file index.android.js --bundle-output android/app/build/intermediates/assets/debug/index.android.bundle --sourcemap-output android/app/build/intermediates/assets/debug/index.android.map --assets-dest android/app/src/main/res/",
+		"bundle-android-dev": "react-native bundle --platform android --dev true --entry-file index.android.js --bundle-output android/app/build/intermediates/assets/debug/index.android.bundle --sourcemap-output android/app/build/intermediates/assets/debug/index.android.map --assets-dest android/app/src/main/res/",
 		"test": "jest"
 	},
 	"dependencies": {
